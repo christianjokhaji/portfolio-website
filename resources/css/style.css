@@ -145,4 +145,8 @@ p {
 	footer p {
 		font-size: 12px;
 	}
+
+	main section {
+		max-width: 300px;
+	}
 }
