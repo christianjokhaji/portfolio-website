@@ -25,7 +25,16 @@
 		min-width: 120px;
 		max-width: 120px;
 	}
+}
 
+@media screen and (max-width: 485px) {
+	ul {
+		font-size: 12px;
+	}
+
+	footer p {
+		font-size: 12px;
+	}
 }
 
 
