@@ -75,7 +75,7 @@ footer {
 
 main {
 	justify-content: center;
-	margin: 35px 35px;
+	margin: 35px 0px;
 	gap: 30px;
 	flex-wrap: wrap;
 }
