@@ -121,7 +121,7 @@ p {
 
 @media screen and (max-width: 900px) {
 	main.flex-row {
-		flex-direction: column-reverse;
+		flex-direction: column;
 		align-items: center;
 	}
 
@@ -150,5 +150,9 @@ p {
 	main section {
 		max-width: 300px;
 		margin: 0 auto;
+	}
+
+	main.flex-row {
+		flex-direction: column;
 	}
 }
