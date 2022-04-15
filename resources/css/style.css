@@ -1,3 +1,9 @@
+/* ID Styles */
+
+main#icons {
+	flex-direction: row;
+}
+
 /* Class Styles */
 
 .flex-row {
@@ -27,6 +33,7 @@ header a {
 li a {
 	display: inline-block;
 	padding: 20px 20px;
+	font-weight: medium;
 }
 
 li a:hover {
@@ -69,8 +76,6 @@ footer {
 	display: flex;
 	justify-content: center;
 	background-color: #970011;
-	position: relative;
-	bottom: 0px;
 	margin-top: auto;
 }
 
