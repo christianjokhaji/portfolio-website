@@ -129,6 +129,11 @@ p {
 		min-width: 120px;
 		max-width: 120px;
 	}
+
+	main section {
+		max-width: 460px;
+		margin: 0 auto;
+	}
 }	
 
 @media screen and (max-width: 485px) {
