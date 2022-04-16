@@ -2,6 +2,7 @@
 
 main#icons {
 	flex-direction: row;
+	gap: 50px;
 }
 
 /* Class Styles */
@@ -18,14 +19,17 @@ main#icons {
 
 /* Child Styles */
 
-header a {
+header > a {
 	margin-left: 20px;
+	font-family: 'Square Peg', cursive;
+	font-weight: 400;
+	text-transform: none;
+	font-size: 30px;
 }
 
 li a {
 	display: inline-block;
 	padding: 20px 20px;
-	font-weight: medium;
 }
 
 li a:hover {
@@ -84,19 +88,26 @@ a {
 	color: white;
 	text-decoration: none;
 	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
 }
 
 li {
 	display: inline;
+	font-family: 'Montserrat', sans-serif;
 }
 
 h1 {
 	font-size: 30px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 800;
 }
 
 p {
 	margin-top: 20px;
 	line-height: 25px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
 }
 
 /* Media Queries */
