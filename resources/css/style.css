@@ -119,6 +119,22 @@ figcaption {
 
 /* Media Queries */
 
+@media screen and (max-width: 2880px) and (min-height: 900px) {
+	main section {
+		min-width: 340px;
+		max-width: 700px;
+	}
+
+	h1 {
+		font-size: 30px;
+	}
+
+	section > p {
+		font-size: 18px;
+		line-height: 28px;
+	}
+}
+
 @media screen and (max-width: 900px) {
 	main.flex-row {
 		flex-direction: column;
@@ -138,7 +154,7 @@ figcaption {
 
 @media screen and (max-width: 675px) {
 	main section {
-		max-width: 400px;
+		max-width: 500px;
 	}
 
 	header.flex-row {
@@ -156,20 +172,14 @@ figcaption {
 	nav ul li a {
 		font-size: 12px;
 	}
+
+	footer p {
+		font-size: 12px;
+	}
 }
 
-@media screen and (max-width: 2880px) and (min-height: 900px) {
+@media screen and (max-width: 485px) {
 	main section {
-		min-width: 340px;
-		max-width: 700px;
-	}
-
-	h1 {
-		font-size: 30px;
-	}
-
-	section > p {
-		font-size: 18px;
-		line-height: 28px;
+		max-width: 300px;
 	}
 }
