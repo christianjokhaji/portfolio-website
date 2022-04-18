@@ -46,6 +46,7 @@ main img {
 	max-width: 302px;
 	min-width: 302px;
 	max-height: 302px;
+	margin-bottom: 20px;
 }
 
 footer p {
@@ -108,6 +109,12 @@ p {
 	line-height: 25px;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 400;
+}
+
+figcaption {
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	font-style: italic;
 }
 
 /* Media Queries */
