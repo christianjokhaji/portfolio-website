@@ -135,7 +135,7 @@ p {
 
 	main.flex-row img {
 		min-width: 120px;
-		max-width: 120px;
+		max-width: 302px;
 	}
 
 	main section {
@@ -167,5 +167,21 @@ p {
 
 	main.flex-row {
 		flex-direction: column;
+	}
+}
+
+@media screen and (max-width: 2880px) and (min-height: 710px) {
+	main section {
+		min-width: 350px;
+		max-width: 700px;
+	}
+
+	h1 {
+		font-size: 30px;
+	}
+
+	section > p {
+		font-size: 20px;
+		line-height: 28px;
 	}
 }
