@@ -179,7 +179,7 @@ figcaption {
 
 @media screen and (max-width: 2880px) and (min-height: 710px) {
 	main section {
-		min-width: 350px;
+		min-width: 340px;
 		max-width: 700px;
 	}
 
@@ -188,7 +188,7 @@ figcaption {
 	}
 
 	section > p {
-		font-size: 20px;
+		font-size: 18px;
 		line-height: 28px;
 	}
 }
