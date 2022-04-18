@@ -38,13 +38,14 @@ li a:hover {
 
 main section {
 	min-width: 350px;
-	max-width: 500px;
+	max-width: 560px;
 }
 
 main img {
 	float: right;
 	max-width: 302px;
 	min-width: 302px;
+	min-height: 302px;
 	margin-bottom: 20px;
 }
 
