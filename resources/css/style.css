@@ -5,6 +5,14 @@ main#icons {
 	gap: 50px;
 }
 
+#Armenia-Ball {
+	float: right;
+	max-width: 302px;
+	min-width: 302px;
+	min-height: 302px;
+	margin-bottom: 20px;
+}
+
 /* Class Styles */
 
 .flex-row {
@@ -15,6 +23,26 @@ main#icons {
 .flex-column {
 	display: flex;
 	flex-direction: column;
+}
+
+figure.project {
+	width: 300px;
+	height: 276.833px;
+}
+
+figure.project > img {
+	margin-bottom: 20px;
+	object-fit: cover;
+	object-position: top;
+	overflow: hidden;
+}
+
+figure.project > figcaption {
+	font-style: normal;
+	line-height: 1.5;
+	color: black;
+	text-transform: none;
+	font-weight: 400;
 }
 
 /* Child Styles */
@@ -33,20 +61,13 @@ li a {
 }
 
 li a:hover {
+	transition: 0.5s;
 	background-color: #c31f32;
 }
 
 main section {
 	min-width: 350px;
 	max-width: 560px;
-}
-
-main img {
-	float: right;
-	max-width: 302px;
-	min-width: 302px;
-	min-height: 302px;
-	margin-bottom: 20px;
 }
 
 footer p {
@@ -117,6 +138,10 @@ figcaption {
 	font-style: italic;
 }
 
+span {
+	font-weight: 600;
+}
+
 /* Media Queries */
 
 @media screen and (max-width: 2880px) and (min-height: 900px) {
@@ -141,7 +166,7 @@ figcaption {
 		align-items: center;
 	}
 
-	main.flex-row img {
+	main.flex-row #Armenia-Ball {
 		min-width: 120px;
 		max-width: 302px;
 	}
@@ -184,6 +209,6 @@ figcaption {
 	}
 
 	li a {
-	padding: 20px 10px;
+		padding: 20px 10px;
 	}
 }
