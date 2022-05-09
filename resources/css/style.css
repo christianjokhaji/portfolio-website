@@ -5,6 +5,14 @@ main#icons {
 	gap: 50px;
 }
 
+main#icons > i {
+	transition: color 0.5s;
+}
+
+main#icons > i:hover {
+	color: #970011;
+}
+
 #Armenia-Ball {
 	float: right;
 	max-width: 302px;
