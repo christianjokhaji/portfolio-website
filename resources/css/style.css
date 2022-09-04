@@ -89,6 +89,7 @@ footer p {
 body {
 	font-family: Verdana;
 	min-height: 100vh;
+	background-color: #faf6f6;
 }
 
 header {
